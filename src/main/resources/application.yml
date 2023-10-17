@@ -1,0 +1,32 @@
+server:
+  port: 9527
+spring:
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+discord:
+  enable: true
+  userKeyList: user1
+  user1:
+    userKey: user1
+    userToken: xxx
+    user:
+    password:
+    botToken: xxxxxxxxxxx
+    guildId: xxxxxx
+    channelId: xxxxxxxxxx
+    concurSize: 3
+    waitSize: 10
+  proxy:
+    enable: true
+    address: 127.0.0.1
+    port: 7890
+
+
+
+
+
+
+
+
